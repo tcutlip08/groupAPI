@@ -14,10 +14,12 @@
         <link rel="stylesheet" href="assets/style.css"> 
     </head>
     <body>
-<h1>Hello World</h1>
 <div class="container">
-<div class="card" style="width: 60rem;">
-    <h3 class="card-title text-light bg-dark">Search Parameters</h3>
+        <div class="jumbotron" style="background-color: #20315A ; color: white;"><h1 class="text-center"><strong>
+        New York Times Search</strong></h1></div>
+                
+<div class="card">
+    <h3 class="card-title text-light" style="background-color: #20315A">Search Parameters</h3>
     <div class="card-body">
         
 <form>
@@ -38,12 +40,19 @@
         <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       </div>
 
-    <button class="btn btn-primary" id="search">Search</button><button class="btn btn-primary" id="clear">Clear Results</button>
+    <button type="button" class="btn btn-secondary" id="search" style="margin-right: 5px">Search</button>
+    <button type="button" class="btn btn-secondary" id="clear">Clear Results</button>
   </form>
             </div>
         </div>
-    </div>
-</div>        
+<br>
+    <div class="card">
+            <h3 class="card-title text-light" style="background-color: #20315A">Top Articles</h3>
+            <div class="card-body" id="toparticles">
+            
+            </div>
+        </div>
+    </div>   
 <script type="text/javascript"></script>
     </body>
 </html>
